@@ -1,0 +1,22 @@
+body.dark-mode {
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+    --border-color: #404040;
+    --hover-color: #2a2a2a;
+}
+
+body.dark-mode h1 {
+    color: #6ab0ff;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode select,
+body.dark-mode input[type="date"] {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #404040;
+}
+
+body.dark-mode .task-item:hover {
+    background-color: #2a2a2a;
+} 
